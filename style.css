@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Page 1 */
+body.page1 {
+  background-color: deepskyblue; 
+}
+
+/* Page 2 */
+body.page2 {
+  background-color: green;
+}
+
+/* Page 3 */
+body.page3 {
+  background-color: lightgoldenrodyellow;
+}
