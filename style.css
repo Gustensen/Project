@@ -4,9 +4,29 @@ html {
 }
 
 /* Page 1 */
-body.page1 {
-  background-color: deepskyblue; 
-}
+
+      body.page1 {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: skyblue;
+        color: white;
+        padding: 20px;
+      }
+      header h1 {
+        margin: 0;
+      }
+      section {
+        margin: 20px;
+      }
+      section h2 {
+        color: #333;
+      }
+    
+
+
 
 /* Page 2 */
 body.page2 {

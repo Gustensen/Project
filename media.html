@@ -19,12 +19,50 @@
   <a href="facts.html">Game facts</a>
   <a href="#">Videos</a>
 		</nav>
-	</header> 
-  <p> Trailer of the new fortnite season</p>
+	</header> <br> 
   
-  <iframe width="470" height="300" src="https://www.youtube.com/embed/4x2_K3vTfug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section> Concerning the best players in fortnite Bugha is one of them. Kyle Giersdorf, better known as Bugha , is an American professional esports player who is best known for playing Fortnite Battle Royale. He came to fame after winning Fortnite World Cup 2019. </section> 
+  <a href="https://en.wikipedia.org/wiki/Bugha_(gamer)">Bugha</a> <br>
 
-</body>
+  <p> Below is the trailer of the new fortnite season and one of Bugha's videos </p> <br>
+
+
+  <iframe width="470" height="300" src="https://www.youtube.com/embed/4x2_K3vTfug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <br>
+  
+
+  <script src="https://www.youtube.com/player_api"></script>
+
+  <div id="player"></div>
+
+  <script>
+    // Load the YouTube Player API asynchronously
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Function to create the YouTube player after the API has loaded
+    var player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('player', {
+        height: '300',
+        width: '470',
+        videoId: '_fkkMXtp4xY',
+      });
+    }
+
+    // Function to play the video
+    function playVideo() {
+      if (player) {
+        player.playVideo();
+      }
+    }
+  </script> 
+
+
+ 
+ 
+  </body>
   
     
 </html>
